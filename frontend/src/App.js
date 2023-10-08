@@ -1,12 +1,12 @@
-import Header from './Header.js';
 import './App.css';
-import React from 'react';
+import Header from './Header.js';
+import Main from './Main.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      
+      <Main />
       </div>
   );
 }
